@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply bg-sky-500 hover:bg-sky-700 h-10 w-32 text-white rounded-3xl font-semibold
+     }
+.input{
+    @apply border-[0.5px] border-slate-200 w-[90%] h-10 pl-2 rounded-md placeholder:text-lg xl:h-12
+}
+     
+}
